@@ -1,0 +1,31 @@
+{
+  "name": "goolgle-map-component",
+  "version": "0.0.1",
+  "description": "Google map web component based on CanJs can.Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cherifGsoul/goolgle-map-component.git"
+  },
+  "keywords": [
+    "webcomponent",
+    "mvvm",
+    "mvc",
+    "canjs",
+    "plugin",
+    "map",
+    "gmap"
+  ],
+  "author": "Cherif BOUCHELAGHEM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cherifGsoul/goolgle-map-component/issues"
+  },
+  "homepage": "https://github.com/cherifGsoul/goolgle-map-component",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
