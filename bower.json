@@ -1,0 +1,32 @@
+{
+  "name": "goolgle-map-component",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cherifGsoul/goolgle-map-component",
+  "authors": [
+    "Mohamed Cherif Bouchelaghem <cherifbouchelaghem@yahoo.fr>"
+  ],
+  "description": "CanJS component for Google map",
+  "main": "src/googlemap",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "keywords": [
+    "mvc",
+    "map",
+    "google",
+    "canjs",
+    "component",
+    "webcomponent",
+    "mvvm"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

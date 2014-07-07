@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Google map component</title>
+	<style type="text/css">
+		g-map{
+			display: block;
+			height: 1000px;
+			width: 100%;
+		}
+	</style>
+	 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO6z17S9UyNJR5MvvIFB5D0Uz0dD9R8Fo">
+    </script>
+</head>
+<body>
+	<div id="out"></div>
+	<script type="text/mustache" id="map">
+		<g-map latitude="36.833" longitude="3.000" maptype="terrain"></g-map>
+	</script>
+	<script type="text/javascript" src="../../../bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="../../../bower_components/canjs/can.jquery.dev.js"></script>
+	<script type="text/javascript" src="../../../bower_components/canjs/can.map.define.js"></script>
+	
+	<script type="text/javascript" src="gmap.js"></script>
+	<script type="text/javascript" src="demo.js"></script>
+	
+</body>
+</html>
