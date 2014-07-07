@@ -28,5 +28,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "canjs": "~2.1.2",
+    "jquery": "1.11.1"
+  }
 }
