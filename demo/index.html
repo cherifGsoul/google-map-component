@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Google map component demo</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+		}
+		g-map{
+			display: block;
+			height: 1000px;
+			width: 100%;
+		}
+	</style>
+	 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO6z17S9UyNJR5MvvIFB5D0Uz0dD9R8Fo">
+    </script>
+</head>
+<body>
+		<div id="out"></div>
+	<script type="text/mustache" id="map">
+		<g-map latitude="36.833" longitude="3.000" maptype="terrain"></g-map>
+	</script>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="//canjs.com/release/2.1.2/can.jquery.js"></script>
+	<script src="//canjs.com/release/2.1.2/can.map.define.js"></script>
+	<script src="gmap.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#out').html(can.view('map'));	
+		});
+	</script>
+</body>
+</html>
